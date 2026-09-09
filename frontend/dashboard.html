@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organiza+ | Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="brand" href="dashboard.html">Organiza+</a>
+    <div class="nav-links">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="disciplinas.html">Disciplinas</a>
+      <a href="tarefas.html">Tarefas</a>
+      <button class="btn-secondary" onclick="logout()">Sair</button>
+    </div>
+  </div>
+</nav>
+
+  <main class="container">
+    <h1 id="welcome">Olá!</h1>
+    <p class="muted">Resumo da sua organização acadêmica.</p>
+    <section class="grid">
+      <div class="card metric"><span>Total de tarefas</span><strong id="total">0</strong></div>
+      <div class="card metric"><span>Pendentes</span><strong id="pending">0</strong></div>
+      <div class="card metric"><span>Concluídas</span><strong id="completed">0</strong></div>
+      <div class="card metric"><span>Produtividade</span><strong id="productivity">0%</strong></div>
+    </section>
+    <section class="card" style="margin-top:18px">
+      <h2>Progresso</h2>
+      <div class="progress"><div id="progressBar"></div></div>
+      <p id="dashboardMessage" class="message"></p>
+    </section>
+  </main>
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

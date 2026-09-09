@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organiza+ | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="auth-page">
+    <section class="card auth-card">
+      <h1>Organiza+</h1>
+      <p class="muted">Organização acadêmica e produtividade.</p>
+      <form id="loginForm">
+        <label>E-mail</label>
+        <input type="email" name="email" required>
+        <label>Senha</label>
+        <input type="password" name="password" required>
+        <button class="btn-primary full" type="submit">Entrar</button>
+      </form>
+      <p id="message" class="message"></p>
+      <p>Ainda não possui conta? <a href="cadastro.html">Cadastre-se</a></p>
+    </section>
+  </main>
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

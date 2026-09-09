@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Organiza+ | Cadastro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="auth-page">
+    <section class="card auth-card">
+      <h1>Criar conta</h1>
+      <form id="registerForm">
+        <label>Nome</label>
+        <input name="name" required>
+        <label>E-mail</label>
+        <input type="email" name="email" required>
+        <label>Senha</label>
+        <input type="password" name="password" minlength="4" required>
+        <button class="btn-primary full" type="submit">Cadastrar</button>
+      </form>
+      <p id="message" class="message"></p>
+      <p><a href="index.html">Voltar para o login</a></p>
+    </section>
+  </main>
+  <script src="js/api.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>

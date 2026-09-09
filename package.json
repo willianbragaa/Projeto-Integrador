@@ -1,0 +1,13 @@
+{
+  "name": "plataforma-academica",
+  "version": "1.0.0",
+  "description": "Prova de conceito de plataforma de organização acadêmica e produtividade.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  }
+}
