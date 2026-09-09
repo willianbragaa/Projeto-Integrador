@@ -6,7 +6,6 @@ Projeto Integrador de uma plataforma simples de organização acadêmica.
 
 - Juliana Couto Barreto Bahia
 - Luciano Barbosa da Silva
-- José Julio Redugelo de Melo
 - Willian Gabriel Braga Freitas
 - Cauan de Souza Gimenes
 
